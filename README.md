@@ -14,9 +14,14 @@
 * 隐藏了任务栏图标
 * 添加系统托盘(**托盘右键菜单可退出**)
 * 鼠标可拖拽移动，拖拽范围已限制在屏幕内(不过由于实现问题，拖拽的太快会因为鼠标没停留在live2d上，导致拖拽操作中断)
+* 因为我用的windows，所以其他系统并不清楚是否能用
 
+<br/><br/>
+### 下载
+[点击此处](https://github.com/MikuNyanya/live2dPet_windows/releases/tag/v0.0.1)，直接解压可用
+<br/>
 
-### 预览<br/>
+### 预览
 ![ ](https://github.com/MikuNyanya/live2dPet_windows/blob/master/live2d/image/preview.jpg)
 
 <br/><br/>
@@ -29,6 +34,7 @@
 2020-12-15<br/>
 虽然快懒死了，不过还是上传到gayhub了<br/>
 但是路径方面有点问题，live2d模型资源的路径，在打包成exe后变得不一样了<br/><br/>
+顺便吐槽下Electron打包成品这体积真大。。
 
 ------
 想吧live2d丢在桌面上，于是找到了Electron<br/>
