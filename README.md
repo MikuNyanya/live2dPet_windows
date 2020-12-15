@@ -8,8 +8,13 @@
 <br/>
 
 使用Electron实现的桌面live2d宠物<br/>
-使用本地资源，**完全**脱离对网络的需求<br/>
 可以随时随地摆在桌面上<br/><br/>
+* 使用本地资源，**完全**脱离对网络的需求
+* 窗体透明，只显示live2d本体
+* 隐藏了任务栏图标
+* 添加系统托盘(**托盘右键菜单可退出**)
+* 鼠标可拖拽移动，拖拽范围已限制在屏幕内(不过由于实现问题，拖拽的太快会因为鼠标没停留在live2d上，导致拖拽操作中断)
+
 
 ### 预览<br/>
 ![ ](https://github.com/MikuNyanya/live2dPet_windows/blob/master/live2d/image/preview.jpg)
