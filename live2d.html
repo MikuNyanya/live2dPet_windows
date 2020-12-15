@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>这是一个live2d</title>
+    <link rel="stylesheet" href="live2d/css/live2d.css" />
+</head>
+
+<body>
+    <div id="landlord">
+        <div class="message" style="opacity:0"></div>
+        <canvas id="live2d" width="300" height="300" class="live2d"></canvas>
+        <div class="hide-button">隐藏</div>
+    </div>
+    <script>window.$ = window.jQuery = require('./live2d/js/jquery.min.js');</script>
+    <script type="text/javascript">
+
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="live2d/js/live2d_r.js"></script>
+    <!-- <script type="text/javascript" src="live2d/js/message.js"></script> -->
+    <script type="text/javascript" src="live2d/js/index.js"></script>
+    <script type="text/javascript">
+        loadlive2d("live2d", "live2d/model/shizuku/shizuku.model.json");
+    </script>
+</body>
+
+</html>
