@@ -1,0 +1,2 @@
+# live2dPet_windows
+使用Electron实现的桌面live2d宠物，可离线运行
